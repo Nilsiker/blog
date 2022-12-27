@@ -4,21 +4,45 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "checkout",
+            "type": "shell",
+            "command": "git checkout build",
+            "dependsOn": "build"
+        },
+        {
             "label": "build",
             "type": "shell",
             "command": "zine build . docs",
         },
         {
-            "label": "deploy",
+            "label": "add",
             "type": "shell",
-            "command": "zine build . docs",
-            "dependsOn": "build"
+            "command": "git add docs",
+            "dependsOn": "checkout"
         },
         {
-            "label": "checkout build",
+            "label": "commit",
             "type": "shell",
-            "command": "git checkout build",
-            "dependsOn": "build"
-        }
+            "command": "git commit -m \"build page\"",
+            "dependsOn": "add"
+        },
+        {
+            "label": "push",
+            "type": "shell",
+            "command": "git push origin build --force",
+            "dependsOn": "commit"
+        },
+        {
+            "label": "rm",
+            "type": "shell",
+            "command": "rm docs",
+            "dependsOn": "push"
+        },
+        {
+            "label": "Deploy",
+            "type": "shell",
+            "command": "git checkout main",
+            "dependsOn": "rm"
+        },
     ]
 }
