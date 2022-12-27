@@ -7,7 +7,6 @@
             "label": "checkout",
             "type": "shell",
             "command": "git checkout build",
-            "dependsOn": "build"
         },
         {
             "label": "build",
