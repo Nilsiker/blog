@@ -1,5 +1,5 @@
 
-<div style="display:flex;justify-content: center;"> <img style="border-radius: 100%; width: 200px" src="/static/nilsiker.png" /> </div>
+<div style="display:flex;justify-content: center;"> <img style="border-radius: 100%; width: 200px" src="/static/avatars/default.png" /> </div>
 
 ## 🦀 Hi, I am Andreas.
 
