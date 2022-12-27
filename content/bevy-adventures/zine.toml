@@ -1,0 +1,15 @@
+
+slug = "bevy_ymir"
+number = 1
+title = "bevy_ymir"
+
+
+[[article]]
+file = "ymir-1.md"
+title = "#1 - Creating Worlds"
+topic = ["bevy", "procgen"]
+author = "nilsiker"
+cover = "/static/covers/ymir-early-world.png"
+pub_date = "2022-12-27"
+publish = true
+featured = true

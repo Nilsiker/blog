@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "bit";
+    src: url("/static/fonts/PressStart2P.ttf");
+}
+
+.zine-header, .zine-article-title {
+    font-family: "bit";
+    border-radius: 8px;
+    background-size: cover;
+    background-color: transparent;
+}
+
+main>div {
+    border-radius: 8px;
+}
+
+.zine-card {
+}
+
+.zine-article-menu {
+    border-radius: 8px;
+}
+
+div.bg-primary {
+    color: white !important;
+}
+
+footer {
+    color: white !important;
+}

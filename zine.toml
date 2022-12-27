@@ -1,0 +1,29 @@
+
+[site]
+url = "http://localhost"
+name = "nilsiker"
+description = "A personal blog for my techy ventures"
+menu = [
+    { name = "About", url = "/about" },
+    { name = "Posts", url = "/" },
+]
+
+
+[authors]
+nilsiker = { name = "Nilsiker", avatar = "/static/nilsiker.png" }
+
+[topics]
+bevy = { description = "A refreshingly simple data-driven game engine built in Rust." }
+procgen = {description = "Anything relating to procedural generation."}
+
+
+[theme]
+primary_color = "#16161D"
+secondary_color = "#16161D"
+main_color = "#FFFFFF"
+link_color = "#e07312"
+background_image = "/static/banner.png"
+head_template = "templates/head.html"
+footer_template = "templates/footer.html"
+default_cover = "/static/covers/default.png"
+default_avatar = "/static/avatars/default.png"
