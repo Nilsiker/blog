@@ -17,7 +17,7 @@
         {
             "label": "checkout build",
             "type": "shell",
-            "command": "git branch build",
+            "command": "git checkout build",
             "dependsOn": "build"
         }
     ]
