@@ -4,21 +4,21 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "checkout",
-            "type": "shell",
-            "command": "git checkout build",
-        },
-        {
             "label": "build",
             "type": "shell",
             "command": "zine build . docs",
-            "dependsOn": "checkout"
+        },
+        {
+            "label": "checkout",
+            "type": "shell",
+            "command": "git checkout build",
+            "dependsOn": "build"
         },
         {
             "label": "add",
             "type": "shell",
             "command": "git add docs",
-            "dependsOn": "build"
+            "dependsOn": "checkout"
         },
         {
             "label": "commit",
