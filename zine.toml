@@ -1,6 +1,6 @@
 
 [site]
-url = "http://localhost"
+url = "https://nilsiker.github.io/blog"
 name = "nilsiker"
 description = "A personal blog for my techy ventures"
 menu = [
