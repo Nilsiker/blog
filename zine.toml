@@ -10,7 +10,7 @@ menu = [
 
 
 [authors]
-nilsiker = { name = "Nilsiker", avatar = "/static/nilsiker.png" }
+nilsiker = { name = "Nilsiker", avatar = "/static/avatars/default.png" }
 
 [topics]
 bevy = { description = "A refreshingly simple data-driven game engine built in Rust." }
