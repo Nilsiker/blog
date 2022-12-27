@@ -23,7 +23,7 @@
         {
             "label": "commit",
             "type": "shell",
-            "command": "git commit -m \"build page\"",
+            "command": "git commit -m build-page",
             "dependsOn": "add"
         },
         {
