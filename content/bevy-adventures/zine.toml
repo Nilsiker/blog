@@ -13,3 +13,13 @@ cover = "/static/covers/ymir-early-world.png"
 pub_date = "2022-12-27"
 publish = true
 featured = true
+
+# [[article]]
+# file = "ymir-2.md"
+# title = "#2 - Winter Cleaning"
+# topic = ["bevy", "procgen"]
+# author = "nilsiker"
+# cover = "/static/covers/ymir-early-world.png"
+# pub_date = "2022-12-27"
+# publish = false
+# featured = false
